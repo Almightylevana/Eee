@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+  .whole-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-side {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .centered-box {
+    max-width: calc(100vh - 40px);
+    max-height: unset;
+  }
+
+  aside {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .info-left {
+    display: none;
+  }
+
+  .left-side {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .info-part {
+    justify-content: center;
+  }
+
+  .info-right {
+    display: none;
+  }
+
+  .ball {
+    font-size: 25px;
+  }
+
+  .mid-left,
+  .mid-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+@media (max-width: 410px) {
+  .random-bets {
+    overflow: auto;
+  }
+
+  .random-left {
+    flex: 1 1;
+  }
+  .ball {
+    font-size: 20px;
+  }
+}
